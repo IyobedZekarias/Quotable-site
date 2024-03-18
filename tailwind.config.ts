@@ -8,6 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      transitionProperty: {
+        'blur': 'filter'
+      },
+      borderWidth: {
+        computerx: '0.938rem',
+        computery: '1.563rem'
+      },
+      fontFamily: {
+        georgiaSerif: "georgia, serif",
+        apple: "-apple-system-short-headline, BlinkMacSystemFont, sans-serif"
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -15,6 +26,9 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("tailwindcss-animate"),
+    require('tailwindcss-animated')
+  ],
 };
 export default config;
