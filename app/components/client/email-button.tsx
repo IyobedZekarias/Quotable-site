@@ -28,7 +28,7 @@ function EmailModal(props: { openEmailModal: CallableFunction }) {
     const [email, setEmail] = useState("")
     const [startTime, setStartTime] = useState(Date.now())
     const [totTime, setTotTime] = useState(Date.now())
-    const [animation, setAnimation] = useState("transition-opacity ease-in delay-0 duration-150 opacity-0 active:opacity-100")
+    const [animation, setAnimation] = useState("transition-opacity ease-in delay-0 duration-150 md:opacity-0 active:opacity-100")
     const wrapperRef = useRef(null);
 
 
