@@ -18,7 +18,6 @@ export default function LandingImage() {
         } else if (scrollPosition < 100) {
             setScroll(4)
         }
-        console.log(scrollLevel)
     };
 
     useEffect(() => {

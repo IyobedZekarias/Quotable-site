@@ -2,6 +2,7 @@ import Image from "next/image";
 import Landing from "./components/landing";
 import Demo from "./components/demo";
 import Why from "./components/why";
+import Flow from "./components/client/flow-diagram";
 
 function NavBar() {
   return (
@@ -21,6 +22,7 @@ function Page() {
   return (
     <div>
       <Landing />
+      <Flow />
       <Demo />
       <Why />
     </div>
