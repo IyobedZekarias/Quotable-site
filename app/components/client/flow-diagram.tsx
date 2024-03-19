@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import FlowDark from "../server/flow-dark";
-import FlowLight from "../server/flow-light";
+import FlowDark from "../serverRender/flow-dark";
+import FlowLight from "../serverRender/flow-light";
 
 
 
