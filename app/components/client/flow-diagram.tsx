@@ -38,7 +38,7 @@ export default function Flow() {
                 <div className="flex flex-col gap-1">
                     <p className="text-xl font-semibold text-pretty">Sell Side</p>
                     <ol className="list-decimal">
-                        <li className="text-md text-pretty">Feed data into the model for it to build the it's knowledge base and draw all the necessary information.</li>
+                        <li className="text-md text-pretty">{`Feed data into the model for it to build the it's knowledge base and draw all the necessary information.`}</li>
                         <li className="text-md text-pretty">Answer necessary questions from the model then prompt the model to view how accounting changes affect company valuation.</li>
                         <li className="text-md text-pretty">List your company for sellers to find</li>
                     </ol>

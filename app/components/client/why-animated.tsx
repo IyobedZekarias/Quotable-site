@@ -33,7 +33,7 @@ export default function Why_Animated({ children }: { children: React.ReactNode }
     const isVisible = useIsVisible(ref);
 
     return (
-        <div ref={ref} className="h-[80vh] mt-[20vh] mb-[25vh]">
+        <div ref={ref} className="h-[80vh] mt-[20vh] mb-[35vh]">
             {isVisible && 
             <div className="bg-green-300 dark:bg-green-800 flex flex-col justify-around px-5 pt-3 pb-10 ml-10 mr-10 animate-fade-up animate-once animate-duration-[1500ms] animate-ease-out animate-normal rounded-xl shadow-xl">
                 {children}

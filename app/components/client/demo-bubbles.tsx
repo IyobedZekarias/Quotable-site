@@ -22,7 +22,7 @@ export function useIsVisible(ref: RefObject<Element>) {
         return () => {
             observer.disconnect();
         };
-    }, [ref]);
+    }, [ref, isIntersecting]);
   
     return isIntersecting;
   }
