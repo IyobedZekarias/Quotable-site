@@ -12,7 +12,12 @@ export const metadata: Metadata = {
   },
   keywords: ["Quotable", "Sell Side", "Buy Side", "Accounting", "Working", "ERP", "Valuation", "Valuation+", "Selling"],
   openGraph: {
-    images: ["/opengaph-image.jpg"]
+    images: ['/opengraph-image.jpg'],
+    type: "website",
+    url: "https://quotable.com",
+    title: "Qutable Landing Page",
+    description: "The landing page for Quotable to buy and sell companies",
+    siteName: "Quotable landing page",
   }
 };
 
