@@ -10,7 +10,10 @@ export const metadata: Metadata = {
   icons: {
     icon: "icon.ico"
   },
-  keywords: ["Quotable", "Sell Side", "Buy Side", "Accounting", "Working", "ERP", "Valuation", "Valuation+", "Selling"]
+  keywords: ["Quotable", "Sell Side", "Buy Side", "Accounting", "Working", "ERP", "Valuation", "Valuation+", "Selling"],
+  openGraph: {
+    images: ["/opengaph-image.jpg"]
+  }
 };
 
 export default function RootLayout({
