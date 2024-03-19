@@ -9,7 +9,8 @@ export const metadata: Metadata = {
   description: "Quotable company site",
   icons: {
     icon: "icon.ico"
-  }
+  },
+  keywords: ["Quotable", "Sell Side", "Buy Side", "Accounting", "Working", "ERP", "Valuation", "Valuation+", "Selling"]
 };
 
 export default function RootLayout({
