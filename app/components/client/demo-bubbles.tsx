@@ -13,9 +13,8 @@ export function useIsVisible(ref: RefObject<Element>) {
             threshold: 0.4
         }
         const observer = new IntersectionObserver(([entry]) => {
-            if (isIntersecting === false) {
-                setIntersecting(entry.isIntersecting)
-            }
+            setIntersecting(entry.isIntersecting)
+            
         }, options );
       
         observer.observe(ref.current!);
@@ -65,7 +64,7 @@ export default function DemoBubbles({ heading, text, x_prop, y_prop, w_prop, h_p
 
 
     return (
-        <div ref={ref} className={`flex flex-row flex-shrink ${useWindow ? "min-h-[98vh] sticky top-[2vh]" : "h-[51vh] sticky top-[49vh]"}`} style={{marginLeft: `${x+2}vw`, marginTop: `${y}vh`}}>
+        <div ref={ref} className={`flex flex-row flex-shrink ${useWindow ? "min-h-[98vh]" : "h-[51vh] sticky top-[49vh]"}`} style={{marginLeft: `${x+2}vw`, marginTop: `${y}vh`}}>
             <div
                 className={`flex-none bg-white p-2 rounded-lg transition-opacity ease-in duration-1200 shadow-2xl ${isVisible ? `opacity-100` : "opacity-0"}`}
                 style={{

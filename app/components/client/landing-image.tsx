@@ -34,10 +34,10 @@ export default function LandingImage() {
             alt=""
             width={50}
             height={50}
-            className={`w-7/12 opacity-50 ${scrollLevel == 0 ? "blur-lg" :
-                scrollLevel == 1 ? "blur-md" :
+            className={`w-7/12 opacity-50 ${scrollLevel == 0 ? "blur-none" :
+                scrollLevel == 1 ? "blur-sm" :
                     scrollLevel == 2 ? "blur" :
-                        scrollLevel == 3 ? "blur-sm" : "blur-none"} transition-blur ease-in-out delay-[3000ms] active:blur-none`}
+                        scrollLevel == 3 ? "blur-md" : "blur-lg"} transition-blur ease-in-out delay-[3000ms] active:blur-none`}
             priority
         />
     )

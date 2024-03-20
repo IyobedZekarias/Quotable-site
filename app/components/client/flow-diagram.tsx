@@ -27,13 +27,13 @@ export default function Flow() {
 
 
     return (
-        <div className="flex flex-col items-center p-1 lg:p-28 gap-3 my-12 mx-3 md:mx-10 rounded-2xl">
+        <div className="flex flex-col items-center p-3 lg:p-28 gap-3 rounded-2xl">
+            <p className="text-2xl md:text-4xl font-semibold font-georgiaSerif text-pretty">Understanding the Process</p>
             {
                 darkMode ?
                     <FlowDark />
                     : <FlowLight />
             }
-            <p className="text-2xl md:text-3xl font-semibold text-pretty">Understanding the Process</p>
             <div className="flex flex-row flex-wrap md:flex-nowrap gap-10 justify-between bg-green-300 dark:bg-green-600 p-6 px-8 rounded-xl shadow-xl">
                 <div className="flex flex-col gap-1">
                     <p className="text-xl font-semibold text-pretty">Sell Side</p>

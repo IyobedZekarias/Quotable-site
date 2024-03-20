@@ -5,6 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('http://localhost:3000'),
   title: "Quotable",
   description: "Quotable company site",
   icons: {
@@ -18,6 +19,13 @@ export const metadata: Metadata = {
     title: "Qutable",
     description: "The landing page for Quotable to buy and sell companies",
     siteName: "Quotable.com",
+  },
+  twitter: {
+    site: "https://quotable.com",
+    creator: "Iyobed Zekarias",
+    description: "The landing page for Quotable to buy and sell companies",
+    title: "Quotable",
+    images: ['/opengraph-image.jpg'],
   }
 };
 

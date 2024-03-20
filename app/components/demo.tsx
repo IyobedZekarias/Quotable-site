@@ -56,7 +56,7 @@ export default function Demo() {
         {
             heading: "AND ALOT MORE",
             text: "We have brought together a suite of AI enabled tools to create a focused source of truth. For any merger or acquisition Quotable drives not only actionable insights but also the ability for a buyer and seller to be on the same page from day one without additional parties involved. Follow along to find out when these tools will be available to you!",
-            x: 27,
+            x: 23,
             y: 30,
             w: 45,
             h: 49,
