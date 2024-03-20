@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import FlowDark from "../serverRender/flow-dark";
-import FlowLight from "../serverRender/flow-light";
+import FlowDark from "./serverRender/flow-dark";
+import FlowLight from "./serverRender/flow-light";
 
 
 
@@ -28,7 +28,7 @@ export default function Flow() {
 
     return (
         <div className="flex flex-col items-center p-3 lg:p-28 gap-3 rounded-2xl">
-            <p className="text-2xl md:text-4xl font-semibold font-georgiaSerif text-pretty">Understanding the Process</p>
+            <p className="text-2xl md:text-4xl font-semibold font-georgiaSerif text-pretty border-b-4">Understanding the Process</p>
             {
                 darkMode ?
                     <FlowDark />

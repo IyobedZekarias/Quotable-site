@@ -42,7 +42,7 @@ export default function DemoBubbles({ heading, text, x_prop, y_prop, w_prop, h_p
                 setX(-1)
                 setY(35)
                 setW(80)
-                setH(35)
+                setH(55)
                 setUseWindow(false)
             } else {
                 setX(x_prop)
@@ -80,7 +80,7 @@ export default function DemoBubbles({ heading, text, x_prop, y_prop, w_prop, h_p
                         </span>
                     </div>
                     
-                    <p className="flex-none text-wrap text-base lg:text-lg text-pretty text-black leading-tight">{text}</p>
+                    <p className="flex-none text-wrap text-sm md:text-base lg:text-lg text-pretty text-black leading-tight">{text}</p>
                 </div>
             </div>
         </div>
