@@ -15,9 +15,9 @@ export const metadata: Metadata = {
     images: ['/opengraph-image.jpg'],
     type: "website",
     url: "https://quotable.com",
-    title: "Qutable Landing Page",
+    title: "Qutable",
     description: "The landing page for Quotable to buy and sell companies",
-    siteName: "Quotable landing page",
+    siteName: "Quotable.com",
   }
 };
 

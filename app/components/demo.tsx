@@ -63,8 +63,8 @@ export default function Demo() {
         }
     ]
     return (
-        <div className="flex flex-col items-center justify-center">
-            <span className="sticky top-[8em] w-11/12 p-3 mx-4 mb-10 bg-gradient-to-br from-green-600 via-violet-800 to-black rounded-lg z-1">
+        <div className="flex flex-col items-center justify-center py-20 bg-green-500 bg-opacity-25 shadow-inner">
+            <span className="sticky top-[8em] w-11/12 p-3 mx-4 mb-10 bg-gradient-to-br from-green-600 via-violet-800 to-black rounded-lg z-1 shadow-2xl">
                 <Image
                     src="/app_design.svg"
                     alt=""
